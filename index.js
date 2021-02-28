@@ -3,8 +3,8 @@ var Characteristic;
 
 const request = require('request');
 
-const DEF_MIN_OPEN = 0,
-      DEF_MAX_OPEN = 100,
+const DEF_MIN_OPEN = 100,
+      DEF_MAX_OPEN = 0,
       DEF_TIMEOUT = 5000;
 
 module.exports = homebridge => {
